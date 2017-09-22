@@ -14,6 +14,12 @@
 		D95E2A711F74FD7800B3AC8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95E2A6F1F74FD7800B3AC8A /* LaunchScreen.storyboard */; };
 		D95E2A7C1F74FD7800B3AC8A /* TabbarNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E2A7B1F74FD7800B3AC8A /* TabbarNavigationTests.swift */; };
 		D95E2A871F74FD7800B3AC8A /* TabbarNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E2A861F74FD7800B3AC8A /* TabbarNavigationUITests.swift */; };
+		D95E2A951F74FDE500B3AC8A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E2A941F74FDE500B3AC8A /* TabBarViewController.swift */; };
+		D95E2A971F74FF5500B3AC8A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E2A961F74FF5500B3AC8A /* BaseViewController.swift */; };
+		D95E2A991F75005B00B3AC8A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E2A981F75005B00B3AC8A /* MainViewController.swift */; };
+		D95E2A9B1F75007400B3AC8A /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E2A9A1F75007400B3AC8A /* OrdersViewController.swift */; };
+		D95E2A9D1F75009200B3AC8A /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E2A9C1F75009200B3AC8A /* HistoryViewController.swift */; };
+		D95E2A9F1F75009F00B3AC8A /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E2A9E1F75009F00B3AC8A /* PersonalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		D95E2A821F74FD7800B3AC8A /* TabbarNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbarNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95E2A861F74FD7800B3AC8A /* TabbarNavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarNavigationUITests.swift; sourceTree = "<group>"; };
 		D95E2A881F74FD7800B3AC8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95E2A941F74FDE500B3AC8A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		D95E2A961F74FF5500B3AC8A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D95E2A981F75005B00B3AC8A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D95E2A9A1F75007400B3AC8A /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		D95E2A9C1F75009200B3AC8A /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		D95E2A9E1F75009F00B3AC8A /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,12 @@
 			children = (
 				D95E2A661F74FD7800B3AC8A /* AppDelegate.swift */,
 				D95E2A681F74FD7800B3AC8A /* ViewController.swift */,
+				D95E2A941F74FDE500B3AC8A /* TabBarViewController.swift */,
+				D95E2A961F74FF5500B3AC8A /* BaseViewController.swift */,
+				D95E2A981F75005B00B3AC8A /* MainViewController.swift */,
+				D95E2A9A1F75007400B3AC8A /* OrdersViewController.swift */,
+				D95E2A9C1F75009200B3AC8A /* HistoryViewController.swift */,
+				D95E2A9E1F75009F00B3AC8A /* PersonalViewController.swift */,
 				D95E2A6A1F74FD7800B3AC8A /* Main.storyboard */,
 				D95E2A6D1F74FD7800B3AC8A /* Assets.xcassets */,
 				D95E2A6F1F74FD7800B3AC8A /* LaunchScreen.storyboard */,
@@ -260,7 +278,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D95E2A691F74FD7800B3AC8A /* ViewController.swift in Sources */,
+				D95E2A9B1F75007400B3AC8A /* OrdersViewController.swift in Sources */,
+				D95E2A9F1F75009F00B3AC8A /* PersonalViewController.swift in Sources */,
+				D95E2A971F74FF5500B3AC8A /* BaseViewController.swift in Sources */,
+				D95E2A951F74FDE500B3AC8A /* TabBarViewController.swift in Sources */,
 				D95E2A671F74FD7800B3AC8A /* AppDelegate.swift in Sources */,
+				D95E2A9D1F75009200B3AC8A /* HistoryViewController.swift in Sources */,
+				D95E2A991F75005B00B3AC8A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FRX25KEXK8;
 				INFOPLIST_FILE = TabbarNavigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abner.TabbarNavigation;
@@ -441,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FRX25KEXK8;
 				INFOPLIST_FILE = TabbarNavigation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abner.TabbarNavigation;
