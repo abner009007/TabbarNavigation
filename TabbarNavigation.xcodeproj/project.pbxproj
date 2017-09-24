@@ -20,6 +20,8 @@
 		D95E2A9B1F75007400B3AC8A /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E2A9A1F75007400B3AC8A /* OrdersViewController.swift */; };
 		D95E2A9D1F75009200B3AC8A /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E2A9C1F75009200B3AC8A /* HistoryViewController.swift */; };
 		D95E2A9F1F75009F00B3AC8A /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E2A9E1F75009F00B3AC8A /* PersonalViewController.swift */; };
+		D9D5A7AA1F77F4B6003811D3 /* Contentfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5A7A91F77F4B6003811D3 /* Contentfile.swift */; };
+		D9D5A7AC1F77F901003811D3 /* MainImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D5A7AB1F77F901003811D3 /* MainImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		D95E2A9A1F75007400B3AC8A /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		D95E2A9C1F75009200B3AC8A /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		D95E2A9E1F75009F00B3AC8A /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		D9D5A7A91F77F4B6003811D3 /* Contentfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contentfile.swift; sourceTree = "<group>"; };
+		D9D5A7AB1F77F901003811D3 /* MainImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +114,12 @@
 			isa = PBXGroup;
 			children = (
 				D95E2A661F74FD7800B3AC8A /* AppDelegate.swift */,
+				D9D5A7A91F77F4B6003811D3 /* Contentfile.swift */,
 				D95E2A681F74FD7800B3AC8A /* ViewController.swift */,
 				D95E2A941F74FDE500B3AC8A /* TabBarViewController.swift */,
 				D95E2A961F74FF5500B3AC8A /* BaseViewController.swift */,
 				D95E2A981F75005B00B3AC8A /* MainViewController.swift */,
+				D9D5A7AB1F77F901003811D3 /* MainImageViewController.swift */,
 				D95E2A9A1F75007400B3AC8A /* OrdersViewController.swift */,
 				D95E2A9C1F75009200B3AC8A /* HistoryViewController.swift */,
 				D95E2A9E1F75009F00B3AC8A /* PersonalViewController.swift */,
@@ -280,10 +286,12 @@
 				D95E2A691F74FD7800B3AC8A /* ViewController.swift in Sources */,
 				D95E2A9B1F75007400B3AC8A /* OrdersViewController.swift in Sources */,
 				D95E2A9F1F75009F00B3AC8A /* PersonalViewController.swift in Sources */,
+				D9D5A7AC1F77F901003811D3 /* MainImageViewController.swift in Sources */,
 				D95E2A971F74FF5500B3AC8A /* BaseViewController.swift in Sources */,
 				D95E2A951F74FDE500B3AC8A /* TabBarViewController.swift in Sources */,
 				D95E2A671F74FD7800B3AC8A /* AppDelegate.swift in Sources */,
 				D95E2A9D1F75009200B3AC8A /* HistoryViewController.swift in Sources */,
+				D9D5A7AA1F77F4B6003811D3 /* Contentfile.swift in Sources */,
 				D95E2A991F75005B00B3AC8A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

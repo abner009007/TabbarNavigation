@@ -12,8 +12,8 @@ class HistoryViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.navigationItem.title = "历史信息";
+        self.view.backgroundColor = UIColor.blue;
     }
 
     override func didReceiveMemoryWarning() {

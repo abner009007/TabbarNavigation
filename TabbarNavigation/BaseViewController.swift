@@ -14,7 +14,7 @@ class BaseViewController: UIViewController {
         super.viewWillAppear(animated);
         
         let viewControllerName : String = NSStringFromClass(self.classForCoder);
-        print(viewControllerName);
+        print("当前vc名称是=====",viewControllerName);
         
     }
 
